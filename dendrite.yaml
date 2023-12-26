@@ -181,7 +181,7 @@ client_api:
   recaptcha_public_key: ""
   recaptcha_private_key: ""
   recaptcha_bypass_secret: ""
-  
+
   # To use hcaptcha.com instead of ReCAPTCHA, set the following parameters, otherwise just keep them empty.
   # recaptcha_siteverify_api: "https://hcaptcha.com/siteverify"
   # recaptcha_api_js_url: "https://js.hcaptcha.com/1/api.js"
@@ -295,7 +295,7 @@ sync_api:
   # Configuration for the full-text search engine.
   search:
     # Whether or not search is enabled.
-    enabled: false
+    enabled: true
 
     # The path where the search index will be created in.
     index_path: "./searchindex"

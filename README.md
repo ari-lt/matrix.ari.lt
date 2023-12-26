@@ -6,3 +6,5 @@ if you want to get an account on this homeserver, feel free to DM [@ari:ari.lt](
 or email <ari.web.xyz@gmail.com>
 
 all reverse-proxy stuff can be found in <https://us.ari.lt/git/blob/main/res/nginx.conf>
+
+all sensitive info is censored using `CENSORED`
