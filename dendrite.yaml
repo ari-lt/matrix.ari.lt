@@ -327,7 +327,7 @@ user_api:
   # make certain it is a publicly joinable room, i.e. the join rule of the room must be set to 'public'.
   # As Spaces are just rooms under the hood, Space aliases may also be used.
   auto_join_rooms:
-  #  - "#main:matrix.org"
+    - "#root:ari.lt"
 
   # The number of workers to start for the DeviceListUpdater. Defaults to 8.
   # This only needs updating if the "InputDeviceListUpdate" stream keeps growing indefinitely.
