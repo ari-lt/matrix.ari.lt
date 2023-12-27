@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+
+set -e
+
+main() {
+    printf '%s' '{"allow":["*"],"allow_ip_literals":false,"deny":['
+
+    while read -r line; do
+        echo "\"*.$line\",\"$line\""
+    done <acl | awk 'BEGIN{ORS=""}{print (NR>1?",":"") $0}'
+
+    echo ']}'
+}
+
+main
