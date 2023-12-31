@@ -3,6 +3,9 @@
 set -xe
 
 main() {
+    sort acl >a
+    mv a acl
+
     ./gen_acl_event >acl.json
 
     git add -A
