@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+set -e
+
+main() {
+    while read -r s; do
+        echo "+banlist add here @*:$s"
+    done <acl
+}
+
+main "$@"
+
