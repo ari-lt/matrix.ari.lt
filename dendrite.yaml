@@ -328,6 +328,7 @@ user_api:
   # make certain it is a publicly joinable room, i.e. the join rule of the room must be set to 'public'.
   # As Spaces are just rooms under the hood, Space aliases may also be used.
   auto_join_rooms:
+    - "#ari:ari.lt"
     - "#root:ari.lt"
 
   # The number of workers to start for the DeviceListUpdater. Defaults to 8.
