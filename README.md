@@ -1,5 +1,7 @@
 # ari-web matrix server
 
+## acl moved to : [#list:ari.lt](https://matrix.to/#/#list:ari.lt)
+
 this repository includes files related to <https://matrix.ari.lt/> -- ari-web matrix server
 
 if you want to get an account on this homeserver, feel free to DM [@ari:ari.lt](https://matrix.to/#/@ari:ari.lt)
