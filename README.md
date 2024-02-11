@@ -1,6 +1,6 @@
 # ari-web matrix server
 
-## acl moved to : [#list:ari.lt](https://matrix.to/#/#list:ari.lt)
+## acl moved to : [#abuse:ari.lt](https://matrix.to/#/#abuse:ari.lt)
 
 this repository includes files related to <https://matrix.ari.lt/> -- ari-web matrix server
 
