@@ -212,6 +212,7 @@ client_api:
     cooloff_ms: 500
     exempt_user_ids:
       - "@ari:ari.lt"
+      - "@draupnir:ari.lt"
 
 # Configuration for the Federation API.
 federation_api:
