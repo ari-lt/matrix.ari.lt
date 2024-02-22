@@ -357,8 +357,8 @@ tracing:
 # the disk. Supported log levels are "debug", "info", "warn", "error".
 logging:
   - type: std
-    level: info
+    level: error
   - type: file
-    level: info
+    level: error
     params:
       path: ./logs
